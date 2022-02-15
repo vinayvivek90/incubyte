@@ -9,3 +9,6 @@ def test_one():
 
 def test_two_values():
 	assert Add("1,2") == 3
+
+def test_newline():
+	assert Add("1\n2,3") == 6

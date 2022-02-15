@@ -18,3 +18,6 @@ def test_multiple_delimiter():
 
 def test_delimiter():
 	assert Add('//;\n1;2') == 3
+
+def test_negative():
+	assert Add('-1,-2') == 'negatives not allowed  -1 -2'

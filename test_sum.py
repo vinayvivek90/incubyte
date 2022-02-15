@@ -1,5 +1,5 @@
 import pytest
 from sum import sum
 
-def test_pass():
-	assert sum() == 'sum'
+def test_empty():
+	assert sum("") == 0

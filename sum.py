@@ -1,2 +1,3 @@
-def sum():
-	return 'sum'
+def sum(str):
+	if str == "":
+		return 0

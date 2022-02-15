@@ -15,3 +15,6 @@ def test_newline():
 
 def test_multiple_delimiter():
 	assert Add("1,\n") == 'bad input'
+
+def test_delimiter():
+	assert Add('//;\n1;2') == 3

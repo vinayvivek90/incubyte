@@ -12,3 +12,6 @@ def test_two_values():
 
 def test_newline():
 	assert Add("1\n2,3") == 6
+
+def test_multiple_delimiter():
+	assert Add("1,\n") == 'bad input'
